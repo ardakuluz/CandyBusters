@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu_Style.uss?fileID=7433441132597879392&amp;guid=767286cb5aa3b8b4b88124d1e0042662&amp;type=3#MainMenu_Style"/>
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:Label text="CANDY &#10;BUSTERS" name="Header2" class="header" style="font-size: 100px; -unity-text-align: middle-center; top: 20%; -unity-font-style: bold; -unity-text-outline-color: rgb(77, 77, 77); -unity-text-outline-width: 5px;"/>
+        <ui:Button text="START" name="StartBTN" class="menuButton"/>
+        <ui:Button text="QUIT" name="QuitBTN" class="menuButton"/>
+    </ui:VisualElement>
+</ui:UXML>
